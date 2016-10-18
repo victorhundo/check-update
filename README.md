@@ -2,7 +2,7 @@
 Web application in express.js that shows if containers in host are updated
 
 ## Run Image
-`docker run -d --name some-name -p some-port:8042 -v check-update-script:/app/script check-update`
+`docker run -d --name some-name -p some-port:8042 -v check-update-script:/app/script victorhundo/check-update`
 
 
 **some-name**: container name
@@ -15,6 +15,6 @@ Web application in express.js that shows if containers in host are updated
 
 ```
 git clone https://github.com/victorhundo/check-update-script.git
-docker run -d --name some-name -p some-port:8042 -v check-update-script:/app/script check-update
+docker run -d --name some-name -p some-port:8042 -v check-update-script:/app/script victorhundo/check-update
 ```
 
