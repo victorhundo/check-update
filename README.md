@@ -9,7 +9,7 @@ Web application in express.js that shows if containers in host are updated
 
 **some-port**: host port for you application
 
-**check-update**: script folder from https://github.com/victorhundo/check-update-script.git
+**check-update-script**: script folder from https://github.com/victorhundo/check-update-script.git
 
 ## Resume
 
